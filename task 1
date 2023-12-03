@@ -1,0 +1,12 @@
+ef avg(*nums):
+    
+    if not nums:
+        return None  # Return None for an empty list, you may choose a different behavior if needed
+
+    average = sum(nums) / len(nums)
+    return average
+    
+       
+        
+
+if __name__ == '__main__':
